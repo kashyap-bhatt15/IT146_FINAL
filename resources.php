@@ -11,11 +11,11 @@
 			<div class="container-fluid">
 				<div class="navbar">
 				  <div class="navbar-inner">
-				    <a class="brand" href="index.html">Kashyap's Website</a>
+				    <a class="brand" href="index.php">Kashyap's Website</a>
 				    <ul class="nav">
-				      <li><a href="index.html">Home</a></li>
-				      <li><a href="project.html">Project</a></li>
-				      <li class="active"><a href="resources.html">Resources</a></li>
+				      <li><a href="index.php">Home</a></li>
+				      <li><a href="project.php">Project</a></li>
+				      <li class="active"><a href="resources.php">Resources</a></li>
 				    </ul>
 				  </div>
 				</div>
