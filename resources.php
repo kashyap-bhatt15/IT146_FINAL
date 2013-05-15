@@ -81,13 +81,13 @@
           <!--<img class="img-circle" data-src="holder.js/140x140">-->
           <h2>Git, GitHub</h2>
           <p>Git is a free and open source distributed version control system designed to handle everything from small to very large projects with speed and efficiency. GitHub is a web-based hosting service for software development projects that use the Git revision control system.</p>
-          <p><a target="_blank" href="https://github.com/kashyap-bhatt15/expense_manager" class="btn btn-inverse">View Code <i class="icon-chevron-right icon-white"></i></a></p>
+          <p><a target="_blank" href="http://git-scm.com/" class="btn btn-inverse">View More <i class="icon-chevron-right icon-white"></i></a></p>
         </div>
         <div class="span6 custom-hero-unit height-flexible">
           <!--<img class="img-circle" data-src="holder.js/140x140">-->
           <h2>Heroku</h2>
           <p>Heroku is the leading open language cloud application platform and supports Ruby, Java, Python, Clojure, Scala, Node.js. and custom language buildpacks. Service lets developers spend 100% of time on application code, not managing servers, deployment, ongoing operations, or scaling.</p>
-          <p><a target="_blank" href="https://github.com/kashyap-bhatt15/expense_manager" class="btn btn-inverse">View Code <i class="icon-chevron-right icon-white"></i></a></p>
+          <p><a target="_blank" href="https://www.heroku.com/" class="btn btn-inverse">View More <i class="icon-chevron-right icon-white"></i></a></p>
         </div>
       </div>
       <!-- END ROW-->

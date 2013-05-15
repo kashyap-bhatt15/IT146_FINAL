@@ -44,9 +44,12 @@
 		<!-- START Main Container -->
 		<div class="container marketing">
 			<div class="hero-unit">
-  			<h1>Website Features <small class="pull-right">IT146 - Final Exam</small></h1>
+				<h1 class="pull-right"><small> IT146 - Final Exam  </small></h1>
+				<h1 class="pull-right"><small><a href="#resume" class="link">My Resume</a> | &nbsp;</small></h1>
+				<h1> Website Features </h1>
+
 			</div>
-		  <div class="row">
+		  	<div class="row project-margin-padding">
 		        <div class="span4 custom-hero-unit">
 		          <!--<img class="img-circle" data-src="holder.js/140x140">-->
 		          <h2>Elegant Design</h2>
@@ -63,7 +66,18 @@
 		          <p>Use of HTML5, CSS3, Twitter bootstrap, Heroku, Git, Github, JavaScript, jQuery like latest tools.</p>
 		          <p><a target="_blank" href="mailto:kpbhatt@mail.fresnostate.edu" class="btn btn-inverse">Ask for report <i class="icon-chevron-right icon-white"></i></a></p>
 		        </div><!-- /.span4 -->
+		    </div>
+		    <div class="row project-margin-padding"><a href="resume"></a>
+		        <div class="span12 custom-hero-unit height-flexible">
+		          <!--<img class="img-circle" data-src="holder.js/140x140">-->
+		          <h2>My Resume</h2>
+		        </div>
+		    </div>
+		    <div class="row">
+		        <div class="span12 custom-hero-unit height-flexible" id="resume">
+		          <!--<img class="img-circle" data-src="holder.js/140x140">-->
 		      </div>
+			</div>
 		</div>
 		<!-- END Main Container -->
 
@@ -84,11 +98,17 @@
 		<!-- END Footer -->
 
 		<script src="http://code.jquery.com/jquery.js"></script>
-    <script src="js/bootstrap.js"></script>
-    <script type="text/javascript">
-    	$('#myCarousel').carousel({
-  			interval: 1000
-			})
-    </script>
+	    <script src="js/bootstrap.js"></script>
+	    <script type="text/javascript">
+	    	$('#myCarousel').carousel({
+	  			interval: 2000
+				})
+	    </script>
+	    <script type="text/javascript" src="js/pdfobject_source.js"></script>
+	    <script type="text/javascript">
+	    	window.onload = function () {
+	    		var myPDF = new PDFObject({ url: "resume.pdf", height:"800px;" }).embed("resume");
+	    	}
+	    </script>
 	<body>
 </html>
