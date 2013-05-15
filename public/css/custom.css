@@ -1,0 +1,125 @@
+/* Carousel base class */
+.carousel {
+  margin-bottom: 30px;
+}
+
+.carousel .container {
+  position: relative;
+  z-index: 10;
+}
+
+.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+}
+
+.carousel .item {
+  height: 400px;
+}
+.carousel img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 500px;
+}
+
+.carousel-caption {
+  background-color: transparent;
+  position: static;
+  max-width: 550px;
+  padding: 0 20px;
+  margin-top: 200px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  margin: 0;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+}
+.carousel-caption .btn {
+  margin-top: 10px;
+}
+/* MARKETING CONTENT
+-------------------------------------------------- */
+
+/* Center align the text within the three columns below the carousel */
+.marketing .span4 {
+  text-align: center;
+}
+.marketing h2 {
+  font-weight: normal;
+}
+.marketing .span4 p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.navbar-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999999;
+  margin-top: 30px;
+  margin-bottom: -90px; /* Negative margin to pull up carousel. 90px is roughly margins and height of navbar. */
+}
+
+.footer {
+  background-color: #79141C;
+  border-top: 1px solid #79141C;
+  margin-top: 70px;
+  padding: 30px 0;
+}
+
+.footer-inverse {
+  background-color: #DEBB27;
+}
+
+.custom-hero-unit {
+  background-color: #3CB9C6;
+  border-radius: 6px 6px 6px 6px;
+  color: inherit;
+  height: 250px;
+}
+
+/*.btn-inverse {
+  background-color: #27666d;
+  border-color: transparent;
+}*/
+
+.pull-down-100 {
+  margin-top: 100px;
+}
+
+.marketing .span6 {
+    text-align: center;
+}
+
+.marketing .span6 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.marketing .span12 {
+    text-align: center;
+}
+
+.marketing .span12 p {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.height-flexible {
+  height: auto;
+}
+
+.project-margin-padding {
+  padding-bottom: 10px;
+  margin-bottom: 10px;
+}
